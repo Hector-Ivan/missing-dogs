@@ -1,0 +1,50 @@
+// Dog List Bio
+.dog-contain {
+	background-color: #fefefe;
+	display: flex;
+	padding: 4px;
+	box-shadow: 0px 0px 8px 2px #ccc;
+
+}
+
+.dog-contain .graphic {
+	margin: 2px;
+	height: 150px;
+	width: 150px;
+	background-color: pink;
+}
+
+.dog-contain .dog-info {
+	margin: 2px;
+	flex: 1;
+	background-color: #fefefe;
+	font-size: 18px;
+}
+
+.dog-description {
+	background-color: white;
+	flex: 2;
+	font-size: 18px;
+}
+
+// DOG BIO PROFILE
+.dog-contain.full-bio {
+	display: flex;
+	background-color: #fefefe;
+	padding: 5px;
+
+}
+
+.dog-contain.full-bio .graphic {
+	height: 200px;
+	width: 200px;
+}
+
+.dog-contain.full-bio .second-contain {
+	background-color: #fefefe;
+}
+
+.dog-contain.full-bio .dog-description {
+	flex: 2;
+	background-color: white;
+}

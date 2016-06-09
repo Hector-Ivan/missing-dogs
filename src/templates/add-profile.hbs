@@ -1,0 +1,15 @@
+<form class="add-profile">
+	<h1 class="dog-info in">DOG INFO</h1>
+	<input type="hidden" name="owner_id" value="{{ownerId}}">
+	<p class="dog-name-label in">DOG NAME:</p><input type="text" name="dogName" class="dog-name">
+	<p class="breed-label in">BREED:</p> <input type="text" class="breed">
+	<input type="radio" name="sex" value="male" class="gender-radio-m" checked><p class="gender-m-lab in">Male:</p>
+	<input type="radio" name="sex" value="female" class="gender-radio-f"><p class="gender-f-lab in">Female:</p>
+	<p class="gender">GENDER:</p>
+	<p class="date-label in">LOST DATE:</p> <input type="date" class="date">
+	<p class="contact-label in">CONTACT NAME:</p><input type="text" name="contact" class="contact">
+	<p class="number-label in">CONTACT NUMBER:</p><input type="text" name="number" class="number">
+	<p class="description-label">DESCRIPTION:</p><textarea name="description" id="" cols="40" rows="8" class="description"></textarea>
+
+	<button class="submit">Submit New Dog</button>
+</form>

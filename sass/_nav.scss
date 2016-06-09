@@ -1,0 +1,50 @@
+.primary-nav {
+	background-color: white;
+	text-align: center;
+	padding: 5px;
+	display: flex;
+	height: 150px;
+	align-items: center;
+}
+
+.primary-nav .container {
+	padding: 5px;
+	width: 80px;
+	margin: 5px 50px;
+	display: flex;
+	flex: 1;
+
+}
+
+.primary-nav .graphic {
+	justify-content: center;
+    align-items: center;
+    display: flex;
+	width: 40px;
+	height: 40px;
+	padding: 10px;
+	border-radius: 50%;
+	border: 2px solid #EE3A33;
+
+
+}
+
+.primary-nav .content {
+	flex: 1;
+	font-size: 24px;
+}
+
+.primary-nav .content a {
+	color: #333;
+	text-decoration: none;
+}
+
+.primary-nav .graphic a .fa-paw {
+	color: #EE3A33;
+	text-decoration: none;
+}
+
+// Logout button
+.logout {
+	display: none;
+}

@@ -1,0 +1,45 @@
+// Hero 
+.sub-header {
+	background: linear-gradient(to top, rgba(0,0,0, .75), rgba(0,0,0, .0), rgba(0,0,0, .0)), url('/images/terrier2.jpg');
+	background-size: cover;
+	
+	height: 550px;
+	position: relative;
+	padding: 5px;
+	text-align: center;
+
+}
+
+.sub-header .logo {
+	width: 300px;
+	height: 40px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 34pt;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.sub-header select {
+	display: block;
+	width: 100px;
+	background-color: white;
+	position: absolute;
+	top: 5%;
+	right: 10%;
+
+}
+
+.sub-header .slogan {
+	color: white;
+	padding: 3px;
+	position: absolute;
+	top: 62%;
+	right: 0;
+	left: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 32pt;
+}
+

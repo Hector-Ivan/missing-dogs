@@ -1,0 +1,62 @@
+// LOGIN 
+.in {
+	display: inline;
+}
+
+// FORM
+form.login {
+	margin: auto;
+	margin-top: 50px;
+	width: 640px;
+	height: 300px;
+	position: relative;
+	background-color: #fefefe;
+	box-shadow: 0px 0px 8px 2px #ccc;
+}
+
+// HEADER
+form.login .login-head {
+	position: absolute;
+	top: 5%;
+	right: 43%;
+}
+
+// EMAIL AND LABEL 
+form.login .email {
+	position: absolute;
+	top: 40%;
+	right: 35%;
+	width: 200px;
+	height: 20px;
+}
+
+form.login .email-label {
+	position: absolute;
+	top: 40%;
+	right: 70%;
+	font-size: 20px;
+}
+
+// PASSWORD AND LABEL
+form.login .password {
+	position: absolute;
+	top: 60%;
+	right: 35%;
+	width: 200px;
+	height: 20px;
+}
+
+form.login .pass-label {
+	position: absolute;
+	top: 60%;
+	right: 70%;
+	font-size: 20px;
+}
+
+// SUBMIT BUTTON
+form.login button.login {
+	position: absolute;
+	width: 100px;
+	top: 80%;
+	right: 43%;
+}

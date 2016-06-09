@@ -1,0 +1,377 @@
+.sub-header {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent, transparent), url("/images/terrier2.jpg");
+  background-size: cover;
+  height: 550px;
+  position: relative;
+  padding: 5px;
+  text-align: center; }
+
+.sub-header .logo {
+  width: 300px;
+  height: 40px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 34pt;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.sub-header select {
+  display: block;
+  width: 100px;
+  background-color: white;
+  position: absolute;
+  top: 5%;
+  right: 10%; }
+
+.sub-header .slogan {
+  color: white;
+  padding: 3px;
+  position: absolute;
+  top: 62%;
+  right: 0;
+  left: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32pt; }
+
+.primary-nav {
+  background-color: white;
+  text-align: center;
+  padding: 5px;
+  display: flex;
+  height: 150px;
+  align-items: center; }
+
+.primary-nav .container {
+  padding: 5px;
+  width: 80px;
+  margin: 5px 50px;
+  display: flex;
+  flex: 1; }
+
+.primary-nav .graphic {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 50%;
+  border: 2px solid #EE3A33; }
+
+.primary-nav .content {
+  flex: 1;
+  font-size: 24px; }
+
+.primary-nav .content a {
+  color: #333;
+  text-decoration: none; }
+
+.primary-nav .graphic a .fa-paw {
+  color: #EE3A33;
+  text-decoration: none; }
+
+.logout {
+  display: none; }
+
+.in {
+  margin: 0;
+  display: inline; }
+
+form.add-profile {
+  background-color: #ccc;
+  height: 700px;
+  position: relative;
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+  background-color: #fefefe;
+  box-shadow: 0px 0px 8px 2px #ccc; }
+
+/****************************
+*****  Dog Info Heading *****
+*****************************/
+form.add-profile .dog-info {
+  position: absolute;
+  top: 2%;
+  right: 46%; }
+
+form.add-profile .dog-name {
+  width: 200px;
+  height: 20px;
+  position: absolute;
+  top: 10%;
+  right: 43%; }
+
+form.add-profile .dog-name-label {
+  position: absolute;
+  top: 10%;
+  right: 70%;
+  font-size: 20px; }
+
+form.add-profile .breed {
+  position: absolute;
+  top: 20%;
+  right: 43%;
+  width: 200px;
+  height: 20px; }
+
+form.add-profile .breed-label {
+  position: absolute;
+  top: 20%;
+  right: 70%;
+  font-size: 20px; }
+
+form.add-profile .gender-radio-m {
+  position: absolute;
+  top: 30%;
+  right: 50%; }
+
+form.add-profile .gender-radio-f {
+  position: absolute;
+  top: 35%;
+  right: 50%; }
+
+form.add-profile .gender {
+  position: absolute;
+  top: 27%;
+  right: 70%;
+  font-size: 20px; }
+
+form.add-profile .gender-m-lab {
+  position: absolute;
+  top: 30%;
+  right: 55%; }
+
+form.add-profile .gender-f-lab {
+  position: absolute;
+  top: 35%;
+  right: 55%; }
+
+form.add-profile .date {
+  position: absolute;
+  top: 43%;
+  right: 43%;
+  width: 200px;
+  height: 20px; }
+
+form.add-profile .date-label {
+  position: absolute;
+  top: 43%;
+  right: 70%;
+  font-size: 20px; }
+
+form.add-profile .contact {
+  position: absolute;
+  top: 52%;
+  right: 43%;
+  width: 200px;
+  height: 20px; }
+
+form.add-profile .contact-label {
+  position: absolute;
+  top: 52%;
+  right: 70%;
+  font-size: 20px; }
+
+form.add-profile .number {
+  position: absolute;
+  top: 61%;
+  right: 43%;
+  width: 200px;
+  height: 20px; }
+
+form.add-profile .number-label {
+  position: absolute;
+  top: 61%;
+  right: 70%;
+  font-size: 20px; }
+
+form.add-profile .description {
+  position: absolute;
+  top: 73%;
+  right: 40%;
+  width: 200px;
+  height: 20px; }
+
+form.add-profile .description-label {
+  position: absolute;
+  top: 70%;
+  right: 70%;
+  font-size: 20px; }
+
+form.add-profile button.submit {
+  position: absolute;
+  top: 93%;
+  right: 43%;
+  width: 200px; }
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  color: #333; }
+
+.page {
+  margin: 0 auto; }
+
+.main-content {
+  background-color: #ededed; }
+
+.main-attach {
+  width: 1050px;
+  margin: 0 auto; }
+
+.fail {
+  display: none; }
+
+.dog-contain {
+  background-color: #fefefe;
+  display: flex;
+  padding: 4px;
+  box-shadow: 0px 0px 8px 2px #ccc; }
+
+.dog-contain .graphic {
+  margin: 2px;
+  height: 150px;
+  width: 150px;
+  background-color: pink; }
+
+.dog-contain .dog-info {
+  margin: 2px;
+  flex: 1;
+  background-color: #fefefe;
+  font-size: 18px; }
+
+.dog-description {
+  background-color: white;
+  flex: 2;
+  font-size: 18px; }
+
+.dog-contain.full-bio {
+  display: flex;
+  background-color: #fefefe;
+  padding: 5px; }
+
+.dog-contain.full-bio .graphic {
+  height: 200px;
+  width: 200px; }
+
+.dog-contain.full-bio .second-contain {
+  background-color: #fefefe; }
+
+.dog-contain.full-bio .dog-description {
+  flex: 2;
+  background-color: white; }
+
+/******************************
+****** 	OWNER INFO   **********
+******************************/
+.in {
+  display: inline; }
+
+form.register {
+  margin: auto;
+  margin-top: 50px;
+  height: 350px;
+  position: relative;
+  background-color: #fefefe;
+  box-shadow: 0px 0px 8px 2px #ccc; }
+
+form.register .create-new {
+  position: absolute;
+  top: 0;
+  right: 40%; }
+
+form.register .name {
+  position: absolute;
+  top: 20%;
+  right: 42%;
+  width: 200px;
+  height: 20px; }
+
+form.register .name-label {
+  position: absolute;
+  top: 20%;
+  right: 70%;
+  font-size: 20px; }
+
+form.register .email {
+  position: absolute;
+  top: 40%;
+  right: 42%;
+  width: 200px;
+  height: 20px; }
+
+form.register .email-label {
+  position: absolute;
+  top: 40%;
+  right: 70%;
+  font-size: 20px; }
+
+form.register .password {
+  position: absolute;
+  top: 60%;
+  right: 42%;
+  width: 200px;
+  height: 20px; }
+
+form.register .pass-label {
+  position: absolute;
+  top: 60%;
+  right: 70%;
+  font-size: 20px; }
+
+form.register .submit {
+  position: absolute;
+  top: 80%;
+  right: 46%; }
+
+.in {
+  display: inline; }
+
+form.login {
+  margin: auto;
+  margin-top: 50px;
+  width: 640px;
+  height: 300px;
+  position: relative;
+  background-color: #fefefe;
+  box-shadow: 0px 0px 8px 2px #ccc; }
+
+form.login .login-head {
+  position: absolute;
+  top: 5%;
+  right: 43%; }
+
+form.login .email {
+  position: absolute;
+  top: 40%;
+  right: 35%;
+  width: 200px;
+  height: 20px; }
+
+form.login .email-label {
+  position: absolute;
+  top: 40%;
+  right: 70%;
+  font-size: 20px; }
+
+form.login .password {
+  position: absolute;
+  top: 60%;
+  right: 35%;
+  width: 200px;
+  height: 20px; }
+
+form.login .pass-label {
+  position: absolute;
+  top: 60%;
+  right: 70%;
+  font-size: 20px; }
+
+form.login button.login {
+  position: absolute;
+  width: 100px;
+  top: 80%;
+  right: 43%; }
